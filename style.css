@@ -43,10 +43,17 @@ li{
     margin-left: 2vmax;
 }
 span{
+  margin-right: 5vmax;
     display: flex;
     align-items: center;
 }
-span .line{
+span p{
+    margin-right: 1vmax;
+}
+span i{
+    font-size: 1.3vmax;
+}
+/* .hamburger .line{
     margin-left: 1vmax;
     width: 3vmax;
     height: 0.3vmax;
@@ -61,14 +68,13 @@ span .line{
     width: 2.4vmax;
 }
 .hamburger:hover .middle{
-    
     width:0;
 }
 .hamburger:hover .bottom{
     transform-origin: left;
     transform: rotate(-45deg);
     width: 2.4vmax;
-}
+} */
 .content1{
     margin-top: 15vmax;
     padding: 5vmax;
